@@ -4,12 +4,10 @@ from cvzone.HandTrackingModule import HandDetector
 from cvzone.ClassificationModule import Classifier
 import numpy as np
 import math
-import pygame
-import random
 
 
 # Replace with the IP address of your ESP32
-esp32_ip = "http://192.168.1.42"  # Make sure this matches the ESP32's IP
+esp32_ip = "http://***.***.*.**"  # Make sure this matches the ESP32's IP
 endpoint = "/send"
 
 

@@ -1,8 +1,8 @@
 #include <WiFi.h>
 #include <WebServer.h>
 
-const char* ssid = "OMOTEC 2.4G";
-const char* password = "Omo.3567dadar";
+const char* ssid = "Wifi_id";
+const char* password = "Password";
 
 WebServer server(80);
 #define IN1 16
